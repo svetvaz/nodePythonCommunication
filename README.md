@@ -8,17 +8,17 @@ Shows how to make python do all of the heavy loading and then pass the results t
 #Requirements
 Install node and npm
 
-Then run 'make' like so:
-make install      # This will install all the npm dependencies. The node module forever is
-                  # globally.
+Then on your terminal and in your project directory, run 'make' like so:
 
-make start    # This will start our daemons
+>make install      # This will install all the npm dependencies. The node module forever is globally installed.
+                  
 
-make stop    # This will stop our daemons
+>make start        # This will start our daemons
 
-make clean    # Only used if we want to clean up the node_modules directory.
-              # make install will be required to reinstall them again.
+>make stop    	  # This will stop our daemons
 
-make restart     # This allows restarting the daemons if required.
+>make clean        # Only used if we want to clean up the node_modules directory. make install will be required to reinstall them again.
+
+>make restart      # This allows restarting the daemons if required.
 
 Open your browser and type : http://localhost:7070
