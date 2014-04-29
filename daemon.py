@@ -1,3 +1,4 @@
+# This code has been taken from https://gist.github.com/tzuryby/961228
 #!/usr/bin/env python
 
 import sys, os, time, atexit
