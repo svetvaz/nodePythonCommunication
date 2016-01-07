@@ -15,12 +15,11 @@ restart:
 install:
 	if command -v npm; then \
     	sudo npm install forever -g; \
-    	npm install forever-monitor; \
-    	npm install connect-redis; \
-    	npm install express; \
-    	npm install express.io; \
-    	npm install redis; \
-    	npm install socket.io; \
+    	sudo npm install forever-monitor; \
+    	sudo npm install redis;\
+    	sudo npm install express; \
+    	sudo npm install express.io; \
+    	sudo npm install socket.io; \
     	else echo "Please install npm first."; fi
 
 clean:
